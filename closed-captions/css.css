@@ -9,6 +9,7 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	line-height: 1.4em;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -44,16 +45,27 @@ body {
 }
 
 .voice1 {
-	font-family: "brenner sans";
+	font-family: "Brenner Mono";
 	font-weight: 400;
 	color: skyblue;
 	font-size: 1.3em;	
 	display: block;
     width: 40%;
-	text-align: left;
+	text-align: center;
 	left: 1px;
 	right: 1px;
     margin: 0 auto;
+}
+
+.voice1::before {
+	background: url("speaker.png") no-repeat;
+    background-size: 18px;
+    background-position: center;
+    content: "";
+    border: 1.2px solid skyblue;
+    border-radius: 50%;
+    padding: 0.12em 0.62em;
+    margin-right: 0.3em;
 }
 
 .voice2 {
@@ -63,22 +75,65 @@ body {
 	font-size: 1.3em;
 	display: block;
     width: 40%;
-	text-align: right;
+	text-align: center;
 	left: 1px;
 	right: 1px;
     margin: 0 auto;
 }
 
+.voice2::before {
+	background: url("k.png") no-repeat;
+    background-size: 18px;
+    background-position: center;
+    content: "";
+    border: 1.2px solid white;
+    border-radius: 50%;
+    padding: 0.12em 0.62em;
+    margin-right: 0.3em;
+}
+
+#closed-captions .p41, #closed-captions .p42, #closed-captions .p43{
+	transition: 1s;
+	right: -100px;
+}
+#closed-captions .p41.on, #closed-captions .p42.on, #closed-captions .p43.on{
+	right: 0px;
+}
+
 .voice3 {
-	font-family: "brenner Sans condensed";
-	font-weight: 900;
+	font-family: "Brenner Regular Italic";
+	/* font-weight: 900; */
 	color: red;
-	font-size: 3em;
+	font-size: 2em;
 	width: 40%;
 	text-align: center;
 	left: 1px;
 	right: 1px;
     margin: 0 auto;
+}
+
+.voice4 {
+	font-family: "Brenner Mono";
+	font-weight: 400;
+	color: cyan;
+	font-size: 1.3em;	
+	display: block;
+    width: 40%;
+	text-align: center;
+	left: 1px;
+	right: 1px;
+    margin: 0 auto;
+}
+
+.voice4::before {
+	background: url("four.png") no-repeat;
+    background-size: 18px;
+    background-position: center;
+    content: "";
+    border: 1.2px solid cyan;
+    border-radius: 50%;
+    padding: 0.12em 0.62em;
+    margin-right: 0.3em;
 }
 
 .p0 span {
