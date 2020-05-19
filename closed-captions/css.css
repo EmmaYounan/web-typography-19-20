@@ -226,8 +226,33 @@ body {
 	animation-iteration-count: 1;
   }
 
+  .sound0::before {
+	content: "[Thrilling low drum]";
+	color: grey;
+	font-family: "brenner display";
+	position: absolute;
+	display: block;
+	bottom: 9em;
+	left: 50%;
+	transform: translate(-50%, 0);
+	opacity: 0;
+	animation-name: sounds;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+  }
+
   .sound1 .animated { 
 	animation-name: ripple1;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
+  .sound1::before { 
+	content: "[Buzzer]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds1;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
   }
@@ -238,33 +263,108 @@ body {
 	animation-iteration-count: 1;
   }
 
+  .sound2::before { 
+	content: "[Alarm]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds2;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
   .sound3 .animated { 
 	animation-name: ripple3;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
   }
+
+  .sound3::before { 
+	content: "[Drum]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds3;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
   .sound4 .animated { 
 	animation-name: ripple4;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
   }
+
+  .sound4::before { 
+	content: "[High peeptone]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds4;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
   .sound5 .animated { 
 	animation-name: ripple5;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
   }
+
+  .sound5::before { 
+	content: "[Drum]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds7;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
   .sound6 .animated { 
 	animation-name: ripple6;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
   }
+
+  .sound6::before { 
+	content: "[High peeptone]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds6;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
   .sound7 .animated { 
 	animation-name: ripple7;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
   }
+
+  .sound7::before { 
+	content: "[Drum]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds7;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
   .sound8 .animated { 
 	animation-name: ripple8;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
+  .sound8::before { 
+	content: "[High peeptone]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds8;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
   }
@@ -274,6 +374,17 @@ body {
 	animation-duration: 42s;
 	animation-iteration-count: 1;
   }
+
+  .sound9::before { 
+	content: "[High peep intensifies slowly]";
+	color: grey;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds9;
+	animation-duration: 42s;
+	animation-iteration-count: 1;
+  }
+
   .sound10 .animated { 
 	animation-name: ripple10;
 	animation-duration: 2s;
@@ -596,5 +707,86 @@ body {
 	}
 	100% {
 	  box-shadow: 0.5em rgba(103, 255, 255, 1);
+	}
+  }
+  
+  @keyframes sounds {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds1 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds2 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds3 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds4 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds5 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds6 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds7 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds8 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+  @keyframes sounds9 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
 	}
   }
