@@ -104,7 +104,7 @@ body {
 	font-family: "Brenner Regular Italic";
 	/* font-weight: 900; */
 	color: red;
-	font-size: 2em;
+	font-size: 1.3em;
 	width: 40%;
 	text-align: center;
 	left: 1px;
@@ -115,7 +115,7 @@ body {
 .voice4 {
 	font-family: "Brenner Mono";
 	font-weight: 400;
-	color: cyan;
+	color: skyblue;
 	font-size: 1.3em;	
 	display: block;
     width: 40%;
@@ -130,7 +130,7 @@ body {
     background-size: 18px;
     background-position: center;
     content: "";
-    border: 1.2px solid cyan;
+    border: 1.2px solid skyblue;
     border-radius: 50%;
     padding: 0.12em 0.62em;
     margin-right: 0.3em;
@@ -226,18 +226,84 @@ body {
 	animation-iteration-count: 1;
   }
 
+  /* .sound0 #video-placeholder {
+	animation-name: grow;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+  }
+
+  @keyframes grow{
+	0%{
+		transform: scale(1);
+	}
+	25%{
+		transform: scale(1.2);
+	}
+
+	30%{
+		transform: scale(1.1);
+	}
+	35%{
+		transform: scale(1.2);
+	}
+
+	40%{
+		transform: scale(1.3);
+	}
+
+	45%{
+		transform: scale(1);
+	}
+
+	50%{
+		transform: scale(1.2);
+	}
+
+	55%{
+		transform: scale(1.1);
+	}
+
+	60%{
+		transform: scale(1.2);
+	}
+
+	65%{
+		transform: scale(1.3);
+	}
+
+	100%{
+		transform: scale(1);
+	}
+  } */
+
   .sound0::before {
 	content: "[Thrilling low drum]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	position: absolute;
+	z-index: 9999;
 	display: block;
-	bottom: 9em;
+	top: 29em;
 	left: 50%;
 	transform: translate(-50%, 0);
 	opacity: 0;
 	animation-name: sounds;
 	animation-duration: 6s;
+	animation-iteration-count: 1;
+  }
+  .sound12::after {
+	content: "[Ringing]";
+	color: hotpink;
+	font-family: "brenner display";
+	position: absolute;
+	z-index: 9999;
+	display: block;
+	top: 29em;
+	left: 40%;
+	transform: translate(-50%, 0);
+	opacity: 0;
+	animation-name: sounds;
+	animation-duration: 1s;
 	animation-iteration-count: 1;
   }
 
@@ -247,9 +313,51 @@ body {
 	animation-iteration-count: 1;
   }
 
+  .sound1 #video-placeholder { 
+	animation-name: shake1;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
+  @keyframes shake1{
+	0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }
+
   .sound1::before { 
 	content: "[Buzzer]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds1;
@@ -263,9 +371,111 @@ body {
 	animation-iteration-count: 1;
   }
 
+  .sound2 #video-placeholder{ 
+	animation-name: grow2;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
+  @keyframes grow2{
+	0%{
+	  transform: scale(1);
+	}
+	90%{
+	  transform: scale(1.1);
+	}
+	100%{	
+	  transform: scale(1);
+	}
+}
+
+.sound3 #video-placeholder { 
+	animation-name: shake3;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+  }
+
+  .sound4 #video-placeholder{ 
+	animation-name: grow4;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
+  @keyframes grow4{
+	0%{
+	  transform: scale(1);
+	}
+	90%{
+	  transform: scale(1.1);
+	}
+	100%{	
+	  transform: scale(1);
+	}
+}
+
+.sound5 #video-placeholder { 
+	animation-name: shake5;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+  }
+
+  .sound6 #video-placeholder{ 
+	animation-name: grow6;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
+  @keyframes grow6{
+	0%{
+	  transform: scale(1);
+	}
+	90%{
+	  transform: scale(1.1);
+	}
+	100%{	
+	  transform: scale(1);
+	}
+}
+
+.sound7 #video-placeholder { 
+	animation-name: shake7;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+  }
+
+.sound8 #video-placeholder{ 
+	animation-name: grow8;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+  }
+
+  .sound9 #video-placeholder{ 
+	animation-name: shake9;
+	animation-duration: 42s;
+	animation-iteration-count: 1;
+  }
+.sound12 #video-placeholder{ 
+	animation-name: shake12;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+
+  @keyframes grow8{
+	0%{
+	  transform: scale(1);
+	}
+	90%{
+	  transform: scale(1.1);
+	}
+	100%{	
+	  transform: scale(1);
+	}
+}
+
+
   .sound2::before { 
 	content: "[Alarm]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds2;
@@ -281,7 +491,7 @@ body {
 
   .sound3::before { 
 	content: "[Drum]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds3;
@@ -297,7 +507,7 @@ body {
 
   .sound4::before { 
 	content: "[High peeptone]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds4;
@@ -313,7 +523,7 @@ body {
 
   .sound5::before { 
 	content: "[Drum]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds7;
@@ -329,7 +539,7 @@ body {
 
   .sound6::before { 
 	content: "[High peeptone]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds6;
@@ -345,7 +555,7 @@ body {
 
   .sound7::before { 
 	content: "[Drum]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds7;
@@ -361,7 +571,7 @@ body {
 
   .sound8::before { 
 	content: "[High peeptone]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds8;
@@ -377,7 +587,7 @@ body {
 
   .sound9::before { 
 	content: "[High peep intensifies slowly]";
-	color: grey;
+	color: hotpink;
 	font-family: "brenner display";
 	opacity: 0;
 	animation-name: sounds9;
@@ -387,7 +597,17 @@ body {
 
   .sound10 .animated { 
 	animation-name: ripple10;
-	animation-duration: 2s;
+	animation-duration: 43s;
+	animation-iteration-count: 1;
+  }
+
+  .sound10::before { 
+	content: "[Intens music with high and low tones]";
+	color: hotpink;
+	font-family: "brenner display";
+	opacity: 0;
+	animation-name: sounds10;
+	animation-duration: 43s;
 	animation-iteration-count: 1;
   }
 
@@ -682,33 +902,6 @@ body {
 	  box-shadow: 0.5em rgba(103, 255, 255, 1);
 	}
   }
-
-  @keyframes ripple10 {
-	0% {
-	  box-shadow: 0.5em rgba(103, 255, 255, 1);
-	}
-	25% {
-	  box-shadow: 
-				  0.5em rgba(103, 255, 255, 1),
-				  0em 0em 0em 1.25em rgba(60, 121, 154, .90),
-				  0em 0em 0em 1.875em rgba(46, 86, 109, .80);
-	}
-	50% {
-	  box-shadow: 0em 0em 0em 0.625em rgba(103, 255, 255, 1),
-				  0em 0em 0em 1.25em rgba(60, 121, 154, .90),
-				  0em 0em 0em 1.875em rgba(46, 86, 109, .80),
-				  0em 0em 0em 2.5em rgba(38, 69, 88, .70),
-				  0em 0em 0em 3.125em rgba(32, 58, 76, .60);
-	}
-	75% {
-	  box-shadow: 0.5em rgba(103, 255, 255, 1),
-				  1.25em rgba(60, 121, 154, .90),
-				  1.875em rgba(46, 86, 109, .80);
-	}
-	100% {
-	  box-shadow: 0.5em rgba(103, 255, 255, 1);
-	}
-  }
   
   @keyframes sounds {
 	1%{
@@ -718,6 +911,7 @@ body {
 		opacity: 1;
 	}
   }
+  
   @keyframes sounds1 {
 	1%{
 		opacity: 1;
@@ -726,6 +920,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds2 {
 	1%{
 		opacity: 1;
@@ -734,6 +929,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds3 {
 	1%{
 		opacity: 1;
@@ -742,6 +938,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds4 {
 	1%{
 		opacity: 1;
@@ -750,6 +947,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds5 {
 	1%{
 		opacity: 1;
@@ -758,6 +956,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds6 {
 	1%{
 		opacity: 1;
@@ -766,6 +965,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds7 {
 	1%{
 		opacity: 1;
@@ -774,6 +974,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds8 {
 	1%{
 		opacity: 1;
@@ -782,6 +983,7 @@ body {
 		opacity: 1;
 	}
   }
+
   @keyframes sounds9 {
 	1%{
 		opacity: 1;
@@ -790,3 +992,251 @@ body {
 		opacity: 1;
 	}
   }
+
+    @keyframes sounds10 {
+	1%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+
+  @keyframes ripple10 {
+	0% {
+	  box-shadow: 0em 0em 0em 1em rgba(46, 86, 109, .80);
+	}
+	10% {
+	  box-shadow:0em 0em 0em 1.2em rgba(60, 121, 154, .90);
+	}
+	20%{
+  	  box-shadow: 0em 0em 0em 1em rgba(46, 86, 109, .80);
+	}
+	35%{
+		box-shadow:0em 0em 0em 1.5em rgba(60, 121, 154, .90);
+	}
+	40%{
+		box-shadow: 0em 0em 0em 1em rgba(46, 86, 109, .80);
+	}
+	45% {
+		/* box-shadow:0em 0em 0em 2.2em rgba(103, 255, 255, 1); */
+		box-shadow: 0em 0em 0em 1em rgba(46, 86, 109, .80);
+	}
+
+	50%{
+		/* box-shadow: 0em 0em 0em 1em rgba(60, 121, 154, .90); */
+		box-shadow:0em 0em 0em 2.2em rgba(60, 121, 154, .90);
+	}
+
+	60%{
+		box-shadow:0em 0em 0em 1em rgba(46, 86, 109, .80);
+	}
+
+	65%{
+		box-shadow:0em 0em 0em 3.5em rgba(60, 121, 154, .90);
+	}
+	75% {
+		box-shadow: 0em 0em 0em 2em rgba(46, 86, 109, .80);
+	}
+	80%{
+		box-shadow: 0em 0em 0em 4em rgba(60, 121, 154, .90);
+	}
+	85%{
+		box-shadow: 0em 0em 0em 3em rgba(46, 86, 109, .80);
+	}
+	99%{
+		box-shadow:0em 0em 0em 5em rgba(60, 121, 154, .90);
+	}
+	100% {
+		box-shadow: 0em 0em 0em 0.5em rgba(46, 86, 109, .80);
+	}
+  }
+
+  @keyframes shake5 {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@keyframes shake7 {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@keyframes shake12 {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@keyframes shake3 {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@keyframes shake9 {
+    97% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    97.1% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    97.2% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    97.3% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    97.4% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    97.5% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    97.6% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    97.7% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    97.7% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    97.9% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    98% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+#closed-captions .p6 {
+	left: -100px;
+	transition: all .5s;
+}
+
+#closed-captions .p6.on {
+	left: 1px;
+}
