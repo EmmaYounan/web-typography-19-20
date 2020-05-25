@@ -185,6 +185,10 @@ By studying the situation and the user (Darice) and also looking at my own ident
 ### Add nonsense
 
 Having the chance to create whatever you want and be creative as much as you want and experimenting with new fields of design opportunities. Makes adding nonsense really fun. Adding a background animation to a movie is nonsense that could really work in designing for deaf audio. Creating a vibration effect for the iframe is also nonsense. Just ask yourself how many movies use this kind of effect to visualize sounds for those who can not hear it, then you will know why they will think that this is nonsense. Because it is not been done yet and it seems that no one is interested in experimenting with new things. Adding nonsense can lead you to new cool ideas, which you have never could think about. It helps you think out of the box.
+
+# Author
+
+- Emma Younan
  
  
 
