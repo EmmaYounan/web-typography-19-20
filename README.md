@@ -172,7 +172,7 @@ To help Darice to visualize the sounds more, I adjusted the iframe and slightly 
 
 ### Study situation
 
-At the beginning of the course I had a good conversation with Darice to get to know her a little bit better, to determine her identity, and to understand what she needs to have a great movie experience. To see what she likes better and what she prefers. And to start thinking about solutions to those problems that she has with the currently closed captions. What I four out is that Darice likes action movies because they have lots of visual effects that can describe the vibe of the movie without having to hear the background sounds and music. For the non-action movies this effect can be created in the closed captions section. A simple text or shape animation can visualize the background sounds the same way the visual effects do in action movies.
+At the beginning of the course I had a good conversation with Darice to get to know her a little bit better, to determine her identity, and to understand what she needs to have a great movie experience. To see what she likes better and what she prefers. And to start thinking about solutions to those problems that she has with the currently closed captions. What I found out is that Darice likes action movies because they have lots of visual effects that can describe the vibe of the movie without having to hear the background sounds and music. For the non-action movies this effect can be created in the closed captions section. A simple text or shape animation to visualize the background sounds the same way the visual effects do in action movies.
  
 ### Ignore conventions 
 
