@@ -154,9 +154,7 @@ Last sentence of the first scene animated to visualise that the sentence is repe
 
 **What did I change after the second feedback from Darice**
 
-I changed the description text color to a white color with a blue drop shadow to make the style of the sound description text other than the main subtitles text. I did that to make it more readable for Darice, because she found it not really readable in the last test session.
-
-Some sounds take longer than others. For this reason I have animated some words that describe the sounds and also to give more tension. Like drum sound at the beginning, the buzzer alarm sound, and by the increasingly high peep tone at the end of the first scene.
+I changed the description text color to a white color with a yellow drop shadow to make the style of the sound description text other than the main subtitles text. I did that to make it more readable for Darice, because she found it not really readable in the last test session.
 
 
 ### Sound animation  
@@ -167,9 +165,7 @@ Overlapping blue circles to visualize the background sounds as multiple sound wa
 
 **What did I change after the second feedback from Darice**
 
-To help Darice to visualize the sounds more, I adjusted the iframe and slightly animated it to build up the sound animation by scaling the iframe. I also rotated the iframe when a sound had a vibration effect to it, to give the screen the effect that it is vibrating.
-
-I also used a blur filter to give the effect of fading out and to indicate that the music is fading out. 
+To help Darice to visualize the sounds more, I adjusted the iframe and slightly animated it to build up the sound animation by scaling the iframe. I also rotated the iframe when a sound had a vibration effect to it, to give the screen the effect that it is vibrating. 
  
  
 ## Exclusive Design principles - Final version 
@@ -180,7 +176,7 @@ At the beginning of the course I had a good conversation with Darice to get to k
  
 ### Ignore conventions 
 
-I tried to create a completely different experience by ignoring the subtitle design rules. I gave the character names a designed label and didn't use brackets [...] to display the names. For the closed caption text I used some animation to give the feeling of the sound that is playing. I also used movement and animation on the video iframe. To create the vibration feeling some sounds have, and the high and the low notes. Used circle forms to indicate to the sound waves. And then added extra elements by the second scene to ignore my own convention of wanting to have one shape form for the background sound animation.  
+I tried to create a completely different experience by ignoring the subtitle design rules. I gave the character names a designed label and didn't use brackets [...] to display the names. For the closed caption text I used some animation to give the feeling of the sound that is playing. I also used movement and animation on the video iframe. To create the vibration feeling some sounds have, and the high and the low notes. Used circle forms to indicate to the sound waves. By using extra scale and shake movments on the iframe I ignored my own convention of wanting to have one shape form for the background sound animation. 
  
 ### Prioritize identity
 
