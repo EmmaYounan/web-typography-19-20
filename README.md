@@ -180,7 +180,7 @@ At the beginning of the course I had a good conversation with Darice to get to k
  
 ### Ignore conventions 
 
-I tried to create a completely different experience by ignoring the subtitle design rules. I gave the character names a designed label and didn't use brackets [...] to display the names. For the closed caption text I used some animation to give the feeling of the sound that is playing. I also used movement and animation on the video iframe. To create the vibration feeling some sounds have, and the high and the low notes. Used circle forms to indicate to the sound waves. And then added extra elements by the second sense to ignore my own convention of wanting to have one shape form for the background sound animation.  
+I tried to create a completely different experience by ignoring the subtitle design rules. I gave the character names a designed label and didn't use brackets [...] to display the names. For the closed caption text I used some animation to give the feeling of the sound that is playing. I also used movement and animation on the video iframe. To create the vibration feeling some sounds have, and the high and the low notes. Used circle forms to indicate to the sound waves. And then added extra elements by the second scene to ignore my own convention of wanting to have one shape form for the background sound animation.  
  
 ### Prioritize identity
 
