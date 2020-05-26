@@ -50,7 +50,7 @@ In my first version, I used Brenner sans for the subtitles for all characters wi
 
 Another thing that I did with the text is that I positioned the text of the different characters, one at the left side of the screen (the voice talking to officer K), and officer K text at the right side of the screen to make it look like a conversation message between the two. The position of the two character text is based on the scene where officer K is talking through a machine with the person that is testing him.
 
-I also had a bolder font width for the angry man to indicate that the man was angry and talking in a mean way.
+I also had a bolder font weight for the angry man to indicate that the man was angry and talking in a mean way.
  
 **Color use for typography - First version**
 
