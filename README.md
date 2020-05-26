@@ -154,7 +154,7 @@ Last sentence of the first scene animated to visualise that the sentence is repe
 
 **What did I change after the second feedback from Darice**
 
-I changed the description text color to a white color with a hot pink drop shadow to make the style of the sound description text other than the main subtitles text. I did that to make it more readable for Darice, because she found it not really readable in the last test session.
+I changed the description text color to a hot pink Color to make the style of the sound description text other than the main subtitles text. I did that to make it more readable for Darice, because she found it not really readable in the last test session.
 
 
 ### Sound animation  
